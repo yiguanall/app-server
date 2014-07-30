@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="crabar:war exploded">
+    <output-path>$PROJECT_DIR$/target/crabar</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="crabar/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="crabar" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.springframework:spring:2.5.6" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:2.5.6" />
+          <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:2.5.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:2.5.6" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aspects:2.5.6" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.1" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.1" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.6" />
+          <element id="library" level="project" name="Maven: c3p0:c3p0:0.9.1.2" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.19" />
+          <element id="library" level="project" name="Maven: com.jfinal:jfinal:1.8" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
